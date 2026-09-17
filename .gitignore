@@ -1,0 +1,30 @@
+# PyCharm IDE files
+.idea/
+*.iml
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+dataanalysis/
+
+# Temporary data and outputs
+output/
+temp/
+*.log
+
+# Raw data, ignore csv/xlsx except examples folder
+*.csv
+*.xlsx
+*.xls
+!examples/*.csv
+!examples/*.xlsx
+
+# System junk files
+.DS_Store
+Thumbs.db
